@@ -13,13 +13,13 @@ const daysOfWeek = [
   "Saturday",
   "Sunday",
 ];
- function letterArr(startwithT){
-  for (let i = 0; i<startwithT.length; i++){
-  const letterMessage = `These are the letters starts with T ${startwithT[i]}`;
-  console.log(letterMessage)
-  if(letterMessage[0] == "T"){
-    return letterMessage;
-  }
+ 
+ function letterArr(days){
+  for (let i = 0; i<days.length; i++){
+  if(days [i] [0] == "T"){
+    console.log( days[i]);
+  
  }
-}
-console.log(letterArr(daysOfWeek));
+ }
+ }
+letterArr(daysOfWeek)
