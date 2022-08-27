@@ -10,7 +10,7 @@ let n = 10;
 let sum = 0;
 
 function sumTillNum(num){
- for(let i=1; i<=n; i++){
+ for(let i=1; i<=num; i++){
 	sum+=i
 	
  }
