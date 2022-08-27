@@ -14,12 +14,12 @@ const daysOfWeek = [
   "Sunday",
 ];
  
- function letterArr(days){
+ function letterArr(days,letter){
   for (let i = 0; i<days.length; i++){
-  if(days [i] [0] == "T"){
+  if(days [i] [0] == letter){
     console.log( days[i]);
   
  }
  }
  }
-letterArr(daysOfWeek)
+letterArr(daysOfWeek,"T")
